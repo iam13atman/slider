@@ -1,0 +1,35 @@
+.container{
+	width: 960px;
+	height: 720px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.image-holder{
+	width: 5000px;
+	margin: 0 auto;
+}
+.previous{
+	width: 50px;
+	height: 50px;
+	background-image: url('../img/previous.png');
+	top: 270px;
+	position: relative;
+}
+.next{
+	width: 50px;
+	height: 50px;
+	left: 910px;
+	top: -330px;
+	background-image: url('../img/next.png');
+	position: relative;
+}
+.pointer ul li{	
+	top: -80px;
+	left: 430px;
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	/*background-image: url('../')*/
+}
+
+
